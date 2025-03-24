@@ -1,0 +1,78 @@
+
+.search-container {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 8px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    width: 550px;
+}
+.search-container button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.search-container button:hover {
+    background: #0056b3;
+}
+.item-container1{
+    margin-top: 30px;
+    width: 80%;
+    background-color: rgb(233, 236, 236);
+    margin-left: 10%;
+    margin-right:10% ;
+    height:6000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.box1{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box1 img{
+    height: 300px;
+    margin-bottom: 5px;
+}
+.box1 h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0;
+
+}
+.box1 p{
+    font-size: 20px;
+    margin-top: 0;
+}
+.box1 button{
+    background: #05203b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}

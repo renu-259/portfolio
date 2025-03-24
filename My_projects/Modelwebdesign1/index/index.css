@@ -1,0 +1,242 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: rgb(66, 64, 64);
+    
+}
+.link{
+    list-style: none;
+}
+.link li{
+    display: inline-block;
+    padding: 0px 20px;
+    text-transform: capitalize;
+
+}
+.link li a:hover{
+    color: darkorange;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none; 
+    color: white;  
+}
+.logo{
+    cursor: pointer;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color:darkorange;
+    padding-left: 10px;
+
+}
+.demo{
+    padding: 9px 25px;
+    text-transform: capitalize;
+    font-size:15px ;
+    text-decoration: none;
+    background-color: darkorange;
+    border-radius: 20px;
+
+}
+.demo:hover{
+    background-color: yellowgreen;
+}
+.container{
+    background-color: rgb(110, 126, 180);
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+h1{
+    color: white;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px ;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    color: azure;
+    font-size: 10px;
+    text-align: justify;
+    padding: 10px;
+
+}
+.image1{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+
+}
+.image1 img{
+    height: 500px;
+    width: 600px;
+
+}
+footer{
+    background-color: rgb(31, 29, 29);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+
+}
+footer p{
+    text-align: center;
+    text-transform: capitalize;
+    color: darkorange;
+    font-size: 20px;
+    letter-spacing:1px ;
+    font-weight: bold;
+}
+.image1{
+    height: 580px;
+}
+.image2{
+    opacity: 0.3;
+}
+.text-block {
+    position: absolute;
+    top: 70px;
+    right:250px;
+    background: transparent;
+    color: white;
+    
+  }
+  .text1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    text-transform: uppercase;
+    text-align: justify;
+
+  }
+  p{
+    font-size:15px;
+    font-family: monospace;
+    text-align: left;
+    color:white;
+  }
+  .para{
+      width:60%;
+      margin-left:20% ;
+      margin-right: 20%;
+      height: 500px;
+      background-color: rgb(248, 249, 250);
+      margin-top: 30px;
+
+  }
+  .para1{
+    color: black;
+    font-size:30px ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 30px;
+  }
+  .para2
+  {
+    color: rgb(31, 30, 30);
+    font-size:15px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    word-spacing: 5px;
+  }
+  .container2{
+    width: 100%;
+    height: 700px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  image3,image4{
+    height:600px ;
+    margin-top:20px ;
+    margin-bottom: 20px;
+  }
+  .container3{
+    width: 100%;
+    height: 700px;
+    background-color:white ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .box1,.box2{
+    width: 600px;
+    height: 700px;
+    background-color:rgb(250, 251, 252);
+    margin-top:40px ;
+    border-radius:5px ;
+    box-shadow: 30px;
+    margin-bottom: 40px;
+        
+  }
+  .image6,.image5{
+    width:500px ;
+    height:300px ;
+    margin-left: 50px;
+    margin-top: 30px;
+
+  }
+  h3{
+    font-size:35px ;
+    margin-top:10px ;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+  }
+  .p1,.p2{
+    font-size:18px ;
+    text-align: justify;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+  }
+  .contain1{
+    width: 50%;
+    height: 200px;
+    background-color: white;
+    margin-left: 300px;
+
+  }
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .para3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: black;
+    font-size:15px ;
+  }
+  

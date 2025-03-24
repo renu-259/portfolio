@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(240, 240, 134);
+    color: rgb(77, 77, 184);
+}
+.para1{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+.container1{
+    background-color:rgb(204, 211, 205);
+    width: 100%;
+    height: 70px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1px;
+    align-items: center;
+}
+.head1{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(61, 10, 10);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-left: 15px;
+
+}
+.login{
+        border-style: solid;   /* Other options: dashed, dotted, double, groove */
+        border-width: 10px;
+        border-color: rgb(2, 32, 16);
+        border-radius: 10px;
+        width:70px ;
+        height: 30px;
+        background-color: rgb(2, 32, 16);
+        margin-right: 15px;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.container2{
+    background-color: rgb(144, 185, 209);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    border:1px solid;
+    border-color: rgb(29, 27, 27);
+    background-image: url(images/img1.png);
+    
+}
+.box2{
+    width: 65%;
+    height: 600px;
+    background-color: rgb(144, 185, 209);
+}
+.head2{
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 70px;
+    color: rgb(2, 32, 16);
+    
+}
+.pic{
+width: 35%;
+}
+.im1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    
+}
+.im2{
+    margin-left: 200px;
+    margin-bottom: 20px;
+
+
+}
+
+.para2{
+    
+    text-align: left;
+    padding-left: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px ;
+    color: rgb(49, 95, 70);
+    margin-bottom: 20px;
+}
+.para3{
+    text-align: left;
+    padding-left: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px ;
+    color: rgb(49, 95, 70);
+    margin-bottom: 20px;
+}
+.shop{
+        border-style: solid;   /* Other options: dashed, dotted, double, groove */
+        border-width: 15px;
+        border-color:rgb(2, 32, 16);
+        border-radius: 20px;
+        background-color:rgb(2, 32, 16);
+        margin-left:70px ;  
+        width:200px ;
+        height: 30px;      
+
+}
+.shop a{
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.image1{
+    background-color: black;
+    width: 40%;
+    height: 600px;
+}
+.container3{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(253, 238, 209);
+    display: inline-block;
+}
+.head3{
+    color: rgb(2, 32, 16);
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+.para4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(49, 95, 70);
+}
+.box3{
+    margin-left: 550px;
+    margin-top:50px ;
+}
+.container4{
+    width: 100%;
+    height:500px ;
+    background-color: rgb(229, 231, 231);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.box4{
+    width: 240px;
+    height: 400px;
+    background-color: rgb(242, 250, 246);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 5px;
+
+}
+.box4 h4{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(2, 32, 16);
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+}
+.box4 p{
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(49, 95, 70);
+}
